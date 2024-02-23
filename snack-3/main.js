@@ -15,6 +15,7 @@ for (let i = 0; i < inviteList.length; i++) {
 
     if (guest === element) {
         invited = true
+        break;
     }
 }
 
