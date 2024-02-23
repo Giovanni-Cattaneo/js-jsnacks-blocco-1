@@ -8,7 +8,9 @@ console.log(firstWord, secondWord);
 if(firstWord.length > secondWord.length){
     console.log(firstWord);
     console.log(secondWord);
-}else{
+}else if (firstWord.length < secondWord.length){
     console.log(secondWord);
     console.log(firstWord);
+} else{
+    console.log("Le parole sono lunghe uguali");
 }
