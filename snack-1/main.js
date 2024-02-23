@@ -1,12 +1,12 @@
 console.log("hello world");
 
-const firstNumber = prompt("Inserisci un numero")
-const secondNumber = prompt("Inserisci un nuovo numero")
+const firstNumber = Number(prompt("Inserisci un numero"))
+const secondNumber = Number(prompt("Inserisci un nuovo numero"))
 
 console.log(firstNumber, secondNumber);
 
-if (Number(firstNumber) > Number(secondNumber)) {
+if (firstNumber > secondNumber) {
     console.log(firstNumber);
-} else (Number(firstNumber) < Number(secondNumber)); {
+} else (firstNumber < secondNumber); {
     console.log(secondNumber);
 }
