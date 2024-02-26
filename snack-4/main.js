@@ -22,7 +22,7 @@ while (index < 3) {
 
     if (number % 2 === 0) {
     } else{
-        listNumber.push(number)
+        listNumber.unshift(number)
     }
 
     index++
