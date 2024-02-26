@@ -17,7 +17,7 @@ let index = 0;
 while ( index < 3) {
     number = prompt("scrivi un nuovo numero")
     console.log(number);
-
+    
     sum = sum + Number(number); // usare sum += Number(number) sarebbe equivalente
 
     index++
