@@ -9,9 +9,11 @@ while ( index === true) {
     
     console.log(inputNumber);
 
-    let cube = inputNumber * inputNumber * inputNumber
+    if (isNaN(inputNumber)) {
+        index = false
+    } else{
+        let cube = inputNumber * inputNumber * inputNumber
 
-    console.log(cube);
-
-    index++
+        console.log(cube);
+    }
 }
