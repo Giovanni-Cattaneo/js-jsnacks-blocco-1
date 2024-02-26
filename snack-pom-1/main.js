@@ -4,7 +4,8 @@ let casualNumber = (Math.random(Math.floor) * 100 +1).toFixed(0)
 
 console.log(casualNumber);
 
-let flag = true
+let flag = true, tryNumber = 0;
+
 do {
     let verify = parseInt(prompt ("Inserisci un numero da 1 a 100"))
     
@@ -19,6 +20,10 @@ do {
         flag = false
     }
 
+    tryNumber++
+
 } while (flag);
+
+alert("Hai effettuato " + tryNumber + " Tentativi");
 
 
