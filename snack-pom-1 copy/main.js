@@ -35,7 +35,6 @@ while ( randomNumbers.length <= 64) {
     }
     
     randomNumbers.length++
-}
 
 for (let index = 0; index < box.length; index++) {
     const element = box[index];
@@ -45,6 +44,10 @@ for (let index = 0; index < box.length; index++) {
     })
 
 }
+
+}
+
+
 
 console.log(randomNumbers);
 
